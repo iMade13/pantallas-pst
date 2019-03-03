@@ -459,6 +459,14 @@ h4.modal-title {
     margin-top: 67px;
 }
 
+h4.modal-title-botones {
+    color: #4D4D4D;
+    font-family: Roboto-bold;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 67px;
+}
+
 .modal-p {
     margin-top: 26px;
     font-size: 14px;
@@ -485,6 +493,12 @@ h4.modal-title {
     width: 127px;
     height: 46px;
     margin: 21px 10px 0 0;
+}
+
+.modal-logo-botones {
+    width: 125px;
+    height: 25px;
+    margin: 35px 10px 0 0;
 }
 
 .modal-image {
