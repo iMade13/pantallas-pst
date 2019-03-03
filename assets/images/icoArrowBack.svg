@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="9px" viewBox="0 0 5 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_retro_activo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design-System" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TBK_UI_KIT_Paginador" transform="translate(-370.000000, -399.000000)" fill="#43484C" fill-rule="nonzero">
+            <path d="M372.499985,406 C372.338687,406 372.177408,405.939976 372.054433,405.820182 L368.184628,402.048597 C367.938457,401.808678 367.938457,401.419689 368.184628,401.179867 C368.430698,400.940044 368.829741,400.940044 369.075931,401.179867 L372.499985,404.517173 L375.924059,401.179983 C376.170229,400.940161 376.569232,400.940161 376.815283,401.179983 C377.061572,401.419806 377.061572,401.808794 376.815283,402.048714 L372.945537,405.820298 C372.822502,405.940112 372.661224,406 372.499985,406 Z" id="icon_retro_activo" transform="translate(372.500000, 403.500000) rotate(-270.000000) translate(-372.500000, -403.500000) "></path>
+        </g>
+    </g>
+</svg>

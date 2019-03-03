@@ -456,7 +456,7 @@ h4.modal-title {
     font-family: Roboto-bold;
     font-size: 26px;
     line-height: 20px;
-    margin-top: 77px;
+    margin-top: 67px;
 }
 
 .modal-p {
@@ -481,10 +481,6 @@ h4.modal-title {
     margin: 63px 0 0 34px;
 }
 
-.div-texto {
-    margin-left: 10px;
-}
-
 .modal-logo {
     width: 127px;
     height: 46px;
@@ -492,10 +488,9 @@ h4.modal-title {
 }
 
 .modal-image {
-    left: -154px;
+    left: -100px;
     position: relative;
     top: -13px;
-    width: 130%;
     padding-bottom: 20px;
 }
 
@@ -518,9 +513,21 @@ h4.modal-title {
     border: 1px solid #31b0d5;
 }
 
+.carousel-control-prev,
 .carousel-control-next {
     width: 5%;
     opacity: 1;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../assets/images/icoArrowBack.svg);
+    background-color: #ededed;
+    margin-top: 143px;
+    background-size: 100% 40%;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-right: -50px;
 }
 
 .carousel-control-next-icon {
@@ -529,7 +536,7 @@ h4.modal-title {
     margin-top: 143px;
     background-size: 100% 40%;
     border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    margin-left: -45px;
+    width: 40px;
+    height: 40px;
+    margin-left: -50px;
 }
