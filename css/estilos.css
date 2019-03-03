@@ -446,7 +446,7 @@ tfoot tr td:last-child {
 
 .modal-base {
     width: 900px;
-    height: 700px;
+    height: 650px;
     border-radius: 2px;
     box-shadow: 0 19px 19px 0 rgba(0, 0, 0, 0.3), 0 15px 6px 0 rgba(0, 0, 0, 0.22)
 }
@@ -456,22 +456,20 @@ h4.modal-title {
     font-family: Roboto-bold;
     font-size: 26px;
     line-height: 20px;
-    margin: 63px 0 0 26px;
+    margin-top: 77px;
 }
 
 .modal-p {
-    color: #656565;
+    margin-top: 26px;
     font-size: 14px;
     line-height: 20px;
-    font-family: roboto;
+    color: #656565;
 }
 
 .modal-line {
     box-sizing: border-box;
     height: 112px;
-    width: 2px;
-    margin-top: 41px;
-    border: 1px solid #dad4d4;
+    border: 1.5px solid #dad4d4;
 }
 
 .modal-box-header {
@@ -479,8 +477,59 @@ h4.modal-title {
     margin-left: 20px;
 }
 
+.div-logo {
+    margin: 63px 0 0 34px;
+}
+
+.div-texto {
+    margin-left: 10px;
+}
+
 .modal-logo {
-    width: 118px;
-    height: 100px;
-    margin-top: 45px;
+    width: 127px;
+    height: 46px;
+    margin: 21px 10px 0 0;
+}
+
+.modal-image {
+    left: -154px;
+    position: relative;
+    top: -13px;
+    width: 130%;
+    padding-bottom: 20px;
+}
+
+.carousel-indicators {
+    padding-left: 252px;
+    width: fit-content;
+    bottom: 0;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    border: 1px solid #31b0d5;
+}
+
+.carousel-indicators .active {
+    background-color: #31b0d5;
+    border: 1px solid #31b0d5;
+}
+
+.carousel-control-next {
+    width: 5%;
+    opacity: 1;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../assets/images/icoArrowAdvance.svg);
+    background-color: #ededed;
+    margin-top: 143px;
+    background-size: 100% 40%;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: -45px;
 }
