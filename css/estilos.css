@@ -41,12 +41,12 @@ body {
 }
 
 .font-h1 {
-    font-size: 1.375rem;
+    font-size: 1.375em;
     /* padding-top: 20px; */
 }
 
 .font-h2 {
-    font-size: 1.25rem;
+    font-size: 1.25em;
 }
 
 .font-h3 {
@@ -55,12 +55,12 @@ body {
 
 
 /* p {
-    font-size: 1rem;
+    font-size: 1em;
 } */
 
 .table th,
 .table td {
-    padding: .5rem !important;
+    padding: .5em !important;
 }
 
 td.p-35 {
@@ -270,20 +270,20 @@ tr.border-hidden {
 
 .tittleset {
     text-align: left;
-    font-size: 1.125rem;
+    font-size: 1.125em;
     line-height: 22px;
 }
 
 .tittlesetdown {
-    font-size: 1rem;
+    font-size: 1em;
     text-align: left;
     line-height: 22px;
     font-family: Roboto-reg;
     margin-top: 15px;
 }
 
-.btn {
-    font-size: 0.9375rem;
+.btn-pst {
+    font-size: 14px;
     overflow: hidden;
     transition: none;
     border-radius: 0;
@@ -427,7 +427,7 @@ tr.border-hidden {
 .pst-h1 {
     font-weight: 900;
     line-height: 25px;
-    font-size: 1.375rem;
+    font-size: 1.375em;
 }
 
 .lg-14 {
@@ -460,7 +460,7 @@ tr.border-hidden {
 
 .title-big {
     font-family: Roboto-bold;
-    font-size: 1.625rem;
+    font-size: 1.625em;
     line-height: 30px;
 }
 
