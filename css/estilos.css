@@ -252,12 +252,15 @@ tr.border-hidden {
 
 .tittleset {
     text-align: left;
-    font-size: 15px;
+    font-size: 1.125rem;
+    line-height: 22px;
 }
 
 .tittlesetdown {
-    font-size: 12px;
+    font-size: 1rem;
     text-align: left;
+    line-height: 22px;
+    font-family: Roboto-reg;
 }
 
 .btn {
@@ -291,7 +294,7 @@ tr.border-hidden {
     color: #fff;
     border: 1px solid #fc3853;
     background: #fc3853 url(../assets/images/icon_check.svg);
-    background-position: calc(100% - 10px) center;
+    background-position: calc(100% - 5px) center;
     background-repeat: no-repeat;
 }
 
@@ -304,6 +307,10 @@ tr.border-hidden {
     color: #459efc;
     background-color: #fff;
     text-decoration: underline;
+}
+
+.btn-pd {
+    padding: 14px 50px;
 }
 
 .box-next {
@@ -489,6 +496,10 @@ h4.modal-title-botones {
     margin: 63px 0 0 34px;
 }
 
+.div-logo-wplus {
+    margin: 38px 0 0 34px;
+}
+
 .modal-logo {
     width: 127px;
     height: 46px;
@@ -499,6 +510,12 @@ h4.modal-title-botones {
     width: 125px;
     height: 25px;
     margin: 35px 10px 0 0;
+}
+
+.modal-logo-wplus {
+    width: 118px;
+    height: 69px;
+    margin: 27px 10px 0 0;
 }
 
 .modal-image {
