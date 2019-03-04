@@ -12,7 +12,7 @@
 
 <body>
     <section class="container">
-        <h2 class="robotoreg mt-3">Selecciona uno de los servicios para vender por internet:</h2>
+        <h2 class="robotoreg mt-3 h2">Selecciona uno de los servicios para vender por internet:</h2>
         <div class="table-responsive">
             <table class="table table-bordered table-hover mt-30" cellpadding="0" cellspacing="0">
                 <thead>
@@ -70,7 +70,7 @@
                 <tbody>
                     <tr class="border-hidden">
                         <td width="250" class="text-left">
-                            <h3>Requiere sitio web para su uso</h3>
+                            <h3 class="font-h3">Requiere sitio web para su uso</h3>
                             <p class="down">
                                 Debes contar con sitio web para la venta de productos.
                             </p>
@@ -90,7 +90,7 @@
                     </tr>
                     <tr class="border-hidden">
                         <td class="text-left">
-                            <h3> Instalación avanzada</h3>
+                            <h3 class="font-h3"> Instalación avanzada</h3>
                             <p class="down">
                                 Necesitarás conocimiento de código y creación de sitios web.
                             </p>
@@ -110,7 +110,7 @@
                     </tr>
                     <tr class="border-hidden">
                         <td class="text-left">
-                            <h3>Productos ilimitados</h3>
+                            <h3 class="font-h3">Productos ilimitados</h3>
                             <p class="down">
                                 Vende todos los productos que quieras.
                             </p>
@@ -130,10 +130,10 @@
                     </tr>
                     <tr class="border-hidden">
                         <td class="text-left p-35">
-                            <h3>Moneda Peso o Dólar</h3>
+                            <h3 class="font-h3">Moneda Peso o Dólar</h3>
                         </td>
                         <td>
-                            <h3 class="text-center robotoreg">Sólo peso</h3>
+                            <h3 class="text-center robotoreg font-h3">Sólo peso</h3>
                         </td>
                         <td class="text-center">
                             <img src="assets/images/check-circle-regular.svg" width="30">
@@ -147,18 +147,18 @@
                     </tr>
                     <tr class="border-hidden">
                         <td class="text-left p-35">
-                            <h3>Tipo de tarjeta aceptada</h3>
+                            <h3 class="font-h3">Tipo de tarjeta aceptada</h3>
                         </td>
                         <td colspan="3">
-                            <h3 class="text-center robotoreg">Crédito, débito y prepago</h3>
+                            <h3 class="text-center robotoreg font-h3">Crédito, débito y prepago</h3>
                         </td>
                         <td>
-                            <h3 class="text-center robotoreg">Sólo crédito</h3>
+                            <h3 class="text-center robotoreg font-h3">Sólo crédito</h3>
                         </td>
                     </tr>
                     <tr class="border-hidden">
                         <td class="text-left p-15">
-                            <h3>Costo</h3>
+                            <h3 class="font-h3">Costo</h3>
                             <p class="down">
                                 Sin costos mensuales de mantención.
                             </p>
@@ -168,27 +168,27 @@
                                 <strong>Débito y prepago 1,49% + IVA</strong>por transacción. <strong>Crédito 2,95 + IVA</strong> por transacción.</p>
                         </td>
                     </tr>
-                    <tr class="border-hidden">
+                    <!-- <tr class="border-hidden">
                         <td colspan="5" class="text-center title-adic">
                             <h2>Características adicionales</h2>
                         </td>
-                    </tr>
+                    </tr> -->
                 </tbody>
                 <tfoot>
                     <tr>
                         <td>
                         </td>
                         <td>
-                            <button type="button" class="btn btn-disab a">Seleccionar Webpay.cl</button>
+                            <button type="button" class="btn btn-disab a" onclick="ocultarBtn1()"><span id="btn-webpay">Seleccionar Webpay.cl</span></button>
                         </td>
                         <td>
-                            <button type="button" class="btn btn-disab a">Seleccionar Botones Webpay</button>
+                            <button type="button" class="btn btn-disab a" onclick="ocultarBtn2()"><span id="btn-botones">Seleccionar Botones Webpay</span></button>
                         </td>
                         <td>
-                            <button type="button" class="btn btn-disab a">Webpay Plus</button>
+                            <button type="button" class="btn btn-disab a" onclick="ocultarBtn3()"><span id="btn-plus"> Seleccionar Webpay Plus</span></button>
                         </td>
                         <td>
-                            <button type="button" class="btn btn-disab a">Seleccionar OnePay</button>
+                            <button type="button" class="btn btn-disab a" onclick="ocultarBtn4()"><span id="btn-onepay">Seleccionar OnePay</span></button>
                         </td>
                     </tr>
                 </tfoot>
@@ -199,13 +199,14 @@
             <div class="col-md-12 col-xs-12 mt-40 sin-padding">
                 <div class="row">
                     <div class="col-md-9 col-xs-6 sin-padding">
-                        <h1 class="pb-2">
+                        <h1 class="pb-2 font-h1">
                             Seleccionaste Webpay Plus
                         </h1>
-                        <span class="title-big">Ahora elige como integrarlo:</span>
+                        <p class="title-big">Ahora elige como integrarlo:</p>
+                        <p>
                     </div>
                     <div class="col-md-3 col-xs-6 img-webpay">
-                        <img src="assets/images/logowebpay.jpg">
+                        <img class="logowebpay" src="assets/images/logowebpay.jpg">
                     </div>
                 </div>
             </div>
@@ -221,7 +222,7 @@
         <div class="col-md-12 mt-30 sin-padding">
             <div class="row comoIntegrarlo">
                 <div class="col-md-4">
-                    <h3 class="robotomid tittleset">Crea tu tienda online e intégrala con expertos</h3>
+                    <h3 class="robotomid tittleset font-h3">Crea tu tienda online e intégrala con expertos</h3>
                     <p class="tittlesetdown">
                         Construye tu tienda online a medida y asesórate durante el proceso de implementación de Webpay. Recibirás asistencia de una empresa externa en la creación, personalización y gestión de todo lo que necesitas para hacer crecer tu negocio en internet.
                     </p>
@@ -230,7 +231,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="robotomid tittleset">Ya tengo sitio web y solo quiero integrarlo con un programador</h3>
+                    <h3 class="robotomid tittleset font-h3">Ya tengo sitio web y solo quiero integrarlo con un programador</h3>
                     <p class="tittlesetdown">
                         Para esto te ofrecemos un listado de programadores independientes que te asistirán durante el proceso de integración. Búscalos en: <br/><a href="">www.transbankdevelopers.cl/integradores</a>
                     </p>
@@ -239,7 +240,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <h3 class="robotomid tittleset">Deseo gestionar la integración por mi cuenta</h3>
+                    <h3 class="robotomid tittleset font-h3">Deseo gestionar la integración por mi cuenta</h3>
                     <p class="tittlesetdown">
                         Para esto debes <strong>contar con conocimientos de integración o un programador</strong> que te apoye en esta etapa.
                     </p>
@@ -250,7 +251,7 @@
             </div>
         </div>
         <hr/>
-        <h2 class="robotoreg">Ahóra elige la empresa con la que deseas integrar Webpay Plus:</h2>
+        <h2 class="robotoreg font-h2">Ahora elige la empresa con la que deseas integrar <span> Webpay Plus:</span></h2>
         <div class="col-md-12 mt-30 sin-padding">
             <div class="row comoIntegrarlo">
                 <div class="col-md-4 text-left">
@@ -265,8 +266,8 @@
                 <div class="col-md-4 text-left">
                     <img src="assets/images/bootic.jpg" width="110">
                     <p class="tittlesetdown">
-                        Bootic es una plataforma de eCommerce local, que combina la flexibilidad de un software abierto con el respaldo de un servicio que opera en la nube, construido y mantenido por un equipo que lleva una década marcando pauta en desarrollo e-commerce en Chile
-
+                        Bootic es una plataforma de e-commerce local, que combina la flexibilidad de un software abierto con el respaldo de un servicio que opera en la nube, construido y mantenido por un equipo que lleva una década marcando pauta en desarrollo e-commerce en
+                        Chile.
                     </p>
                     <p class="text-left">
                         <button type="button" class="btn btn-disab btn-pd">Seleccionar</button>
@@ -275,8 +276,7 @@
                 <div class="col-md-4 text-left">
                     <img src="assets/images/bsale.jpg" width="130">
                     <p class="tittlesetdown">
-                        Bsale es un sistema de ventas con boleta electrónica, control de inventario y reporte en tiempo real. Permite vender en tienda fisica y online en forma integrada. No gastes tiempo llevando tu stock en excel, Bsale lo hace por ti.
-
+                        Bsale es un sistema de venta con boleta electrónica, control de inventario y reportes en tiempo real. Permite vender en tienda física y online en forma integrada.No gastes tiempo llevando tu stock en excel, Bsale lo hace por ti..
                     </p>
                     <p class="text-left">
                         <button type="button" class="btn btn-disab btn-pd">Seleccionar</button>
@@ -309,7 +309,7 @@
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalWebpayCl">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">1.- El comprador luego de elegir el producto, debe ingresar al link de pago el cual puede ser compartido a través de redes sociales, whatsapp, SMS etc </p>
-                                    <img class="modal-image" src="./assets/images/Webpay-CL/1-WebpayCL.jpg" alt=" " width="125%">
+                                    <img class="modal-image" src="./assets/images/Webpay-CL/1-WebpayCL.jpg" alt="" width="125%">
                                 </div>
                             </div>
                         </div>
@@ -322,7 +322,7 @@
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalWebpayCl">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">2.- En esta pantalla tu cliente verá los datos de tu negocio y deberá seleccionar el botón “Pagar”, luego de esto aparecera la pantalla donde debe ingresar los datos para cancelar. </p>
-                                    <img class="modal-image" src="./assets/images/Webpay-CL/2-WebpayCL.jpg" alt=" " width="125%">
+                                    <img class="modal-image" src="./assets/images/Webpay-CL/2-WebpayCL.jpg" alt="" width="125%">
                                 </div>
                             </div>
                         </div>
@@ -335,7 +335,7 @@
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalWebpayCl">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">3.- Su cliente podrá pagar con tarjeta de crédito o redcompra utilizando el sistema, no necesita estar registrado. Deberá ingresar los datos que su comercio le solicite, Ej.: ¿Qué paga?, ¿A quién paga? y ¿Cuánto pagas?</p>
-                                    <img class="modal-image" src="./assets/images/Webpay-CL/3-WebpayCL.jpg" alt=" " width="119%">
+                                    <img class="modal-image" src="./assets/images/Webpay-CL/3-WebpayCL.jpg" alt="" width="119%">
                                 </div>
                             </div>
                         </div>
@@ -348,7 +348,7 @@
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalWebpayCl">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">4.- Luego de completados los datos solicitados por tu comercio, tu cliente deberá dar click en el botón “Pagar con Webpay” y confirmar el pago para realizar el pago a través del portal de Webpay. </p>
-                                    <img class="modal-image" src="./assets/images/Webpay-CL/4-WebpayCL.jpg" alt=" " width="119%">
+                                    <img class="modal-image" src="./assets/images/Webpay-CL/4-WebpayCL.jpg" alt="" width="119%">
                                 </div>
                             </div>
                         </div>
@@ -362,7 +362,7 @@
                                     <h4 class="modal-title" id="modalWebpayCl">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">5.- Será redireccionado a la pagina de Webpay Transbank, aquí deberá elegir el medio de pago: Tarjeta de Crédito o Débito (Redcompra). Esta transacción se realiza bajo un sistema seguro. Podrás revisar todas tus transacciones,
                                         a través del portal privado www.transbank.cl. </p>
-                                    <img class="modal-image" src="./assets/images/Webpay-CL/5-WebpayCL.jpg" alt=" " width="119%">
+                                    <img class="modal-image" src="./assets/images/Webpay-CL/5-WebpayCL.jpg" alt="" width="119%">
                                 </div>
                             </div>
                         </div>
@@ -376,7 +376,7 @@
                                     <h4 class="modal-title" id="modalWebpayCl">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">6.- Una vez realizado el pago, usted recibira una confirmación del pago que incluye una copia del comprobante, Transbank envá un resumen diario de las transacciones recibidas incorporando todos los campos de detalle
                                         del formulario de Webpay.cl.</p>
-                                    <img class="modal-image" src="./assets/images/Webpay-CL/6-WebpayCL.jpg" alt=" " width="119%">
+                                    <img class="modal-image" src="./assets/images/Webpay-CL/6-WebpayCL.jpg" alt="" width="119%">
                                 </div>
                             </div>
                         </div>
@@ -418,7 +418,7 @@
                                     <h4 class="modal-title-botones" id="modalBotonesWebpay">El paso a paso de la compra vía Botones Webpay Plus</h4>
                                     <p class="modal-p">1.- El código de Botones Webpay Plus deberá ser ingresado en el HTML de tu sitio web, sin necesidad de tener un carro de compras ni pasarelas de pago, esta pensado para tu sitio web que cuenta con una variedad acotada
                                         de productos y/o servicios. </p>
-                                    <img class="modal-image" src="./assets/images/Botones-Webpay/1-BotonesWebpay.jpg" alt=" " width="119%">
+                                    <img class="modal-image" src="./assets/images/Botones-Webpay/1-BotonesWebpay.jpg" alt="" width="119%">
                                 </div>
                             </div>
                         </div>
@@ -431,7 +431,7 @@
                                 <div class="col-8">
                                     <h4 class="modal-title-botones" id="modalBotonesWebpay">El paso a paso de la compra vía Botones Webpay Plus</h4>
                                     <p class="modal-p">2.- Luego de que tu usuario eliga el producto a comprar, deberá dar click en el “Botón de pago Webpay Plus”. Aquí será redireccionado para realizar la transacción. </p>
-                                    <img class="modal-image" src="./assets/images/Botones-Webpay/2-BotonesWebpay.jpg" alt=" " width="125%">
+                                    <img class="modal-image" src="./assets/images/Botones-Webpay/2-BotonesWebpay.jpg" alt="" width="125%">
                                 </div>
                             </div>
                         </div>
@@ -445,7 +445,7 @@
                                     <h4 class="modal-title-botones" id="modalBotonesWebpay">El paso a paso de la compra vía Botones Webpay Plus</h4>
                                     <p class="modal-p">3.- Aquí deberá elegir el medio de pago: Tarjeta de Crédito o Débito (Redcompra), Transbank envía un comprobante de compra al correo de tu cliente en caso de que habilites este servicio. Esta transacción se realiza
                                         bajo un sistema seguro. </p>
-                                    <img class="modal-image" src="./assets/images/Botones-Webpay/3-BotonesWebpay.jpg" alt=" " width="119%">
+                                    <img class="modal-image" src="./assets/images/Botones-Webpay/3-BotonesWebpay.jpg" alt="" width="119%">
                                 </div>
                             </div>
                         </div>
@@ -458,7 +458,7 @@
                                 <div class="col-8">
                                     <h4 class="modal-title-botones" id="modalBotonesWebpay">El paso a paso de la compra vía Botones Webpay Plus</h4>
                                     <p class="modal-p">4.- Tras la realización de un pago exitoso, Transbank te enviará el comprobante de la transacción al correo electrónico registrado al momento de la afiliación. </p>
-                                    <img class="modal-image" src="./assets/images//Botones-Webpay/4-BotonesWebpay.jpg" alt=" " width="125%">
+                                    <img class="modal-image" src="./assets/images//Botones-Webpay/4-BotonesWebpay.jpg" alt="" width="125%">
                                 </div>
                             </div>
                         </div>
@@ -501,8 +501,8 @@
                                 </div>
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalWebpayPlus">El paso a paso de la compra vía Webpay Plus</h4>
-                                    <p class="modal-p">1.- El comprador selecciona los productos o servicio que desea comprar en tu sitio web.</p>
-                                    <img class="modal-image" src="./assets/images/Webpay-Plus/1-WebpayPlus.jpg" alt=" " width="125%">
+                                    <p class="modal-p mb-50">1.- El comprador selecciona los productos o servicio que desea comprar en tu sitio web.</p>
+                                    <img class="modal-image" src="./assets/images/Webpay-Plus/1-WebpayPlus.jpg" alt="" width="120%">
                                 </div>
                             </div>
                         </div>
@@ -514,8 +514,21 @@
                                 </div>
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalWebpayPlus">El paso a paso de la compra vía Webpay Plus</h4>
-                                    <p class="modal-p">2.- Al momento de pagar debe seleccionar la opción Webpay Plus.</p>
-                                    <img class="modal-image" src="./assets/images/Webpay-Plus/2-WebpayPlus.jpg" alt=" " width="125%">
+                                    <p class="modal-p mb-25">2.- Al momento de pagar debe seleccionar la opción Webpay Plus.</p>
+                                    <img class="modal-image" src="./assets/images/Webpay-Plus/2-WebpayPlus.jpg" alt="" width="123%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-2 d-flex div-logo-wplus">
+                                    <img class="modal-logo-wplus" src="./assets/images/Logos-Modal/WebpayPlus.png" alt="">
+                                    <div class="modal-line"></div>
+                                </div>
+                                <div class="col-8">
+                                    <h4 class="modal-title-wp-plus" id="modalWebpayPlus">El paso a paso de la compra vía Webpay Plus</h4>
+                                    <p class="modal-p mb-25">3.- Luego, será redireccionado a la pagina de Webpay Transbank. Aquí deberá elegir el medio de pago: Tarjeta de Crédito o Débito (Redcompra). Esta transacción se realiza bajo un sistema seguro.</p>
+                                    <img class="modal-image" src="./assets/images/Webpay-Plus/3-WebpayPlus.jpg" alt="" width="119%">
                                 </div>
                             </div>
                         </div>
@@ -527,8 +540,8 @@
                                 </div>
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalWebpayPlus">El paso a paso de la compra vía Webpay Plus</h4>
-                                    <p class="modal-p">3.- Luego, será redireccionado a la pagina de Webpay Transbank. Aquí deberá elegir el medio de pago: Tarjeta de Crédito o Débito (Redcompra). Esta transacción se realiza bajo un sistema seguro.</p>
-                                    <img class="modal-image" src="./assets/images/Webpay-Plus/3-WebpayPlus.jpg" alt=" " width="119%">
+                                    <p class="modal-p mb-30">4.- Si se selecciona Redcompra, se deben completar los siguientes datos:</p>
+                                    <img class="modal-image" src="./assets/images/Webpay-Plus/4-WebpayPlus.jpg" alt="" width="125%">
                                 </div>
                             </div>
                         </div>
@@ -540,8 +553,8 @@
                                 </div>
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalWebpayPlus">El paso a paso de la compra vía Webpay Plus</h4>
-                                    <p class="modal-p">4.- Si se selecciona Redcompra, se deben completar los siguientes datos:</p>
-                                    <img class="modal-image" src="./assets/images/Webpay-Plus/4-WebpayPlus.jpg" alt=" " width="126%">
+                                    <p class="modal-p mb-25">5.- A continuación, el cliente será derivado a su banco, donde se le solicitará ingresar los datos de autenticación bancarios (clave de acceso y segunda clave de seguridad):</p>
+                                    <img class="modal-image" src="./assets/images/Webpay-Plus/5-WebpayPlus.JPG" alt="" width="119%">
                                 </div>
                             </div>
                         </div>
@@ -552,23 +565,10 @@
                                     <div class="modal-line"></div>
                                 </div>
                                 <div class="col-8">
-                                    <h4 class="modal-title" id="modalWebpayPlus">El paso a paso de la compra vía Webpay Plus</h4>
-                                    <p class="modal-p">5.- A continuación, el cliente será derivado a su banco, donde se le solicitará ingresar los datos de autenticación bancarios (clave de acceso y segunda clave de seguridad):</p>
-                                    <img class="modal-image" src="./assets/images/Webpay-Plus/5-WebpayPlus.JPG" alt=" " width="119%">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-2 d-flex div-logo-wplus">
-                                    <img class="modal-logo-wplus" src="./assets/images/Logos-Modal/WebpayPlus.png" alt="">
-                                    <div class="modal-line"></div>
-                                </div>
-                                <div class="col-8">
-                                    <h4 class="modal-title" id="modalWebpayPlus">El paso a paso de la compra vía Webpay Plus</h4>
-                                    <p class="modal-p">6.- Una vez que se hayan ingresado correctamente los datos de autenticación, Webpay Plus confirmará el pago en línea. Podrás revisar todas tus transacciones, a través del sistema de monitoreo disponible en el portal
+                                    <h4 class="modal-title-wp-plus" id="modalWebpayPlus">El paso a paso de la compra vía Webpay Plus</h4>
+                                    <p class="modal-p mb-25">6.- Una vez que se hayan ingresado correctamente los datos de autenticación, Webpay Plus confirmará el pago en línea. Podrás revisar todas tus transacciones, a través del sistema de monitoreo disponible en el portal
                                         privado www.transbank.cl.</p>
-                                    <img class="modal-image" src="./assets/images/Webpay-Plus/6-WebpayPlus.jpg" alt=" " width="119%">
+                                    <img class="modal-image" src="./assets/images/Webpay-Plus/6-WebpayPlus.jpg" alt="" width="119%">
                                 </div>
                             </div>
                         </div>
@@ -579,9 +579,9 @@
                                     <div class="modal-line"></div>
                                 </div>
                                 <div class="col-8">
-                                    <h4 class="modal-title" id="modalWebpayPlus">El paso a paso de la compra vía Webpay Plus</h4>
-                                    <p class="modal-p">7.- Luego de esto, podrás notificar el pago realizado a través: De un comprobante de pago al cliente. Después de esto tu usuario será direccionado a la página de éxito de tu negocio.</p>
-                                    <img class="modal-image" src="./assets/images/Webpay-Plus/7-WebpayPlus.jpg" alt=" " width="120%">
+                                    <h4 class="modal-title-wp-plus" id="modalWebpayPlus">El paso a paso de la compra vía Webpay Plus</h4>
+                                    <p class="modal-p mb-35">7.- Luego de esto, podrás notificar el pago realizado a través: De un comprobante de pago al cliente. Después de esto tu usuario será direccionado a la página de éxito de tu negocio.</p>
+                                    <img class="modal-image" src="./assets/images/Webpay-Plus/7-WebpayPlus.jpg" alt="" width="122%">
                                 </div>
                             </div>
                         </div>
@@ -616,66 +616,66 @@
                         <div class="carousel-item active">
                             <div class="row">
                                 <div class="col-2 d-flex div-logo">
-                                    <img class="modal-logo" src="./assets/images/Logos-Modal/Onepay.png" alt="">
+                                    <img class="modal-logo-onepay" src="./assets/images/Logos-Modal/Onepay.png" alt="">
                                     <div class="modal-line"></div>
                                 </div>
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalOnepay">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">1.- El comprador selecciona el producto o servicio que desea comprar en tu sitio web. </p>
-                                    <img class="modal-image" src="./assets/images/Onepay/1-Onepay.jpg" alt=" " width="119%">
+                                    <img class="modal-image pd-70" src="./assets/images/Onepay/1-Onepay.jpg" alt="" width="128%">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="col-2 d-flex div-logo">
-                                    <img class="modal-logo" src="./assets/images/Logos-Modal/Onepay.png" alt="">
+                                    <img class="modal-logo-onepay" src="./assets/images/Logos-Modal/Onepay.png" alt="">
                                     <div class="modal-line"></div>
                                 </div>
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalOnepay">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">2.- Al momento de pagar debe seleccionar la opción Onepay, he iniciar la orden de compra. </p>
-                                    <img class="modal-image" src="./assets/images/Onepay/2-Onepay.jpg" alt=" " width="125%">
+                                    <img class="modal-image pb-70" src="./assets/images/Onepay/2-Onepay.jpg" alt="" width="125%">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="col-2 d-flex div-logo">
-                                    <img class="modal-logo" src="./assets/images/Logos-Modal/Onepay.png" alt="">
+                                    <img class="modal-logo-onepay" src="./assets/images/Logos-Modal/Onepay.png" alt="">
                                     <div class="modal-line"></div>
                                 </div>
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalOnepay">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">3.- Tu sitio web despliega una pantalla con el código QR que debe escanear tu cliente usando la billetera Onepay con la cámara de su teléfono. </p>
-                                    <img class="modal-image" src="./assets/images/Onepay/3-Onepay.jpg" alt=" " width="119%">
+                                    <img class="modal-image pb-70" src="./assets/images/Onepay/3-Onepay.jpg" alt="" width="119%">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="col-2 d-flex div-logo">
-                                    <img class="modal-logo" src="./assets/images/Logos-Modal/Onepay.png" alt="">
+                                    <img class="modal-logo-onepay" src="./assets/images/Logos-Modal/Onepay.png" alt="">
                                     <div class="modal-line"></div>
                                 </div>
                                 <div class="col-8">
                                     <h4 class="modal-title" id="modalOnepay">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">4.- Tu cliente debe abrir su aplicación de billetera digital Onepay y escanear el código QR, luego seleccionar una de sus tarjetas ya registradas e ingresar el PIN de su billetera para confirmar el pago. </p>
-                                    <img class="modal-image" src="./assets/images/Onepay/4-Onepay.jpg" alt=" " width="119%">
+                                    <img class="modal-image left-40 pb-70" src="./assets/images/Onepay/4-Onepay.jpg" alt="" width="107%">
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="col-2 d-flex div-logo">
-                                    <img class="modal-logo" src="./assets/images/Logos-Modal/Onepay.png" alt="">
+                                    <img class="modal-logo-onepay" src="./assets/images/Logos-Modal/Onepay.png" alt="">
                                     <div class="modal-line"></div>
                                 </div>
                                 <div class="col-8">
-                                    <h4 class="modal-title" id="modalOnepay">El paso a paso de la compra vía Webpay.cl</h4>
+                                    <h4 class="modal-title-wp-plus" id="modalOnepay">El paso a paso de la compra vía Webpay.cl</h4>
                                     <p class="modal-p">5.- Tu sitio (a través de la integración Onepay) detecta automáticamente que el pago ha sido autorizado en la billetera. El cliente al finalizar la transacción ve en su teléfono un comprobante web de la tienda. Y tu
                                         podrás revisar todas tus transacciones, a través del portal privado www.transbank.cl.</p>
-                                    <img class="modal-image" src="./assets/images/Onepay/5-Onepay.jpg" alt=" " width="119%">
+                                    <img class="modal-image left-40 pb-70" src="./assets/images/Onepay/5-Onepay.jpg" alt="" width="106%">
                                 </div>
                             </div>
                         </div>
@@ -696,17 +696,18 @@
 
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js "></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
     <script>
-        $("#machinewebbtn ").click(function() {
-            $(this).addClass("machinewebbtnselect ");
-            $("#divweb ").removeClass("machinewebbtnselect ");
+        $("#machinewebbtn").click(function() {
+            $(this).addClass("machinewebbtnselect");
+            $("#divweb").removeClass("machinewebbtnselect");
         });
-        $("#divweb ").click(function() {
-            $(this).addClass("machinewebbtnselect ");
-            $("#machinewebbtn ").removeClass("machinewebbtnselect ");
+        $("#divweb").click(function() {
+            $(this).addClass("machinewebbtnselect");
+            $("#machinewebbtn").removeClass("machinewebbtnselect");
         });
     </script>
 </body>

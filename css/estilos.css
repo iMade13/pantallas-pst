@@ -44,16 +44,16 @@ strong {
     font-family: Roboto-med !important
 }
 
-h1 {
+.font-h1 {
     font-size: 1.375rem;
     /* padding-top: 20px; */
 }
 
-h2 {
+.font-h2 {
     font-size: 1.25rem;
 }
 
-h3 {
+.font-h3 {
     font-size: 1.125rem;
 }
 
@@ -191,11 +191,31 @@ th.advanced {
     margin-top: 60px;
 }
 
+.mt-65 {
+    margin-top: 65px;
+}
+
 .mt-80 {
     margin-top: 80px;
 }
 
-.pdbt {
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.pb-20 {
     padding-bottom: 20px;
 }
 
@@ -285,8 +305,8 @@ tr.border-hidden {
 .btn-disab:hover {
     color: #fff;
     border: 1px solid #fc3853;
-    background: #fc3853 url(../assets/images/icon_check.svg);
-    background-position: calc(100% - 5px) center;
+    background: #fc3853;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -294,7 +314,7 @@ tr.border-hidden {
     color: #fff;
     border: 1px solid #fc3853;
     background: #fc3853 url(../assets/images/icon_check.svg);
-    background-position: calc(100% - 5px) center;
+    background-position: calc(100% - 20px) center;
     background-repeat: no-repeat;
 }
 
@@ -307,6 +327,10 @@ tr.border-hidden {
     color: #459efc;
     background-color: #fff;
     text-decoration: underline;
+}
+
+.btn-disab:hover #ocultar:focus {
+    display: none;
 }
 
 .btn-pd {
@@ -394,6 +418,7 @@ tfoot tr td:last-child {
 .pst-h1 {
     font-weight: 900;
     line-height: 25px;
+    font-size: 1.375rem;
 }
 
 .lg-14 {
@@ -425,7 +450,7 @@ tfoot tr td:last-child {
 
 .title-big {
     font-family: Roboto-bold;
-    font-size: 26px;
+    font-size: 1.625rem;
     line-height: 30px;
 }
 
@@ -446,6 +471,11 @@ tfoot tr td:last-child {
     line-height: 19px;
     font-family: Roboto-bold;
     margin: 0;
+}
+
+.logowebpay {
+    padding-bottom: 10px;
+    width: 70%;
 }
 
 
@@ -474,6 +504,14 @@ h4.modal-title-botones {
     margin-top: 67px;
 }
 
+h4.modal-title-wp-plus {
+    color: #4D4D4D;
+    font-family: Roboto-bold;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 52px;
+}
+
 .modal-p {
     margin-top: 26px;
     font-size: 14px;
@@ -484,7 +522,7 @@ h4.modal-title-botones {
 .modal-line {
     box-sizing: border-box;
     height: 112px;
-    border: 1.5px solid #dad4d4;
+    border: 1px solid #dad4d4;
 }
 
 .modal-box-header {
@@ -518,11 +556,17 @@ h4.modal-title-botones {
     margin: 27px 10px 0 0;
 }
 
+.modal-logo-onepay {
+    width: 140px;
+    height: 45px;
+    margin: 20px 9px 0 -18px;
+}
+
 .modal-image {
     left: -100px;
     position: relative;
     top: -13px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .carousel-indicators {
@@ -570,4 +614,12 @@ h4.modal-title-botones {
     width: 40px;
     height: 40px;
     margin-left: -50px;
+}
+
+.left-40 {
+    left: -40px;
+}
+
+.pb-70 {
+    padding-bottom: 60px;
 }
