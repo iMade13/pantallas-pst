@@ -40,10 +40,6 @@ body {
     font-size: 16px;
 }
 
-strong {
-    font-family: Roboto-med !important
-}
-
 .font-h1 {
     font-size: 1.375rem;
     /* padding-top: 20px; */
@@ -57,9 +53,10 @@ strong {
     font-size: 1.125rem;
 }
 
-p {
+
+/* p {
     font-size: 1rem;
-}
+} */
 
 .table th,
 .table td {
@@ -224,7 +221,7 @@ th.advanced {
     color: #0275d8!important;
 }
 
-hr {
+.hr {
     padding-bottom: 30px;
 }
 
@@ -258,6 +255,7 @@ table .down {
     font-family: Roboto !important;
     line-height: 20px;
     margin-bottom: 0;
+    font-size: 1rem;
 }
 
 tr.border-hidden {
@@ -281,6 +279,7 @@ tr.border-hidden {
     text-align: left;
     line-height: 22px;
     font-family: Roboto-reg;
+    margin-top: 15px;
 }
 
 .btn {
@@ -346,17 +345,17 @@ tr.border-hidden {
     font-size: 13px;
 }
 
-tfoot tr td {
+.tfoot-pst tr td {
     border: solid 1px #FFF !important;
     border-bottom: solid 1px #eceeef !important
 }
 
-tfoot tr td:nth-child(1) {
+.tfoot-pst tr td:nth-child(1) {
     border-right: solid 1px #eceeef !important;
     border-bottom: solid 1px #FFF !important
 }
 
-tfoot tr td:last-child {
+.tfoot-pst tr td:last-child {
     border-right: solid 1px #eceeef !important;
 }
 
@@ -410,6 +409,16 @@ tfoot tr td:last-child {
     }
 }
 
+.box-elegir-3 {
+    position: relative;
+    top: -23px;
+}
+
+.box-elegir-2 {
+    position: relative;
+    top: -15px;
+}
+
 .no-border {
     background: white;
     border-left-style: hidden !important;
@@ -427,6 +436,7 @@ tfoot tr td:last-child {
 
 .lg-24 {
     line-height: 24px;
+    font-size: 1rem;
 }
 
 .line {
@@ -488,7 +498,7 @@ tfoot tr td:last-child {
     box-shadow: 0 19px 19px 0 rgba(0, 0, 0, 0.3), 0 15px 6px 0 rgba(0, 0, 0, 0.22)
 }
 
-h4.modal-title {
+.h4-modal-title {
     color: #4D4D4D;
     font-family: Roboto-bold;
     font-size: 26px;
@@ -496,7 +506,7 @@ h4.modal-title {
     margin-top: 67px;
 }
 
-h4.modal-title-botones {
+.h4-modal-title-botones {
     color: #4D4D4D;
     font-family: Roboto-bold;
     font-size: 24px;
@@ -504,7 +514,7 @@ h4.modal-title-botones {
     margin-top: 67px;
 }
 
-h4.modal-title-wp-plus {
+.h4-modal-title-wp-plus {
     color: #4D4D4D;
     font-family: Roboto-bold;
     font-size: 24px;
